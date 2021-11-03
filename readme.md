@@ -1,11 +1,5 @@
 # Tugas Akhir  
-Template repositori untuk mendokumentasikan proyek Tugas Akhir (aka Skripsi), ditujukan untuk S1.
-
-Template di tempat ini hanya bersifat panduan. Di tempat lain ada yang menjadi keharusan, termasuk 
-penulisan nama direktori/folder, file, variabel, dan strukturnya.
-
-## Nama Repo
-tugas-akhir, contoh: bagustris/tugas-akhir
+Berikut ini ialah repository untuk keperluan Tugas Akhir S1 atas nama Zanjabila dari Teknik Fisika Institut Teknologi Sepuluh Nopember
 
 ## Struktur Direktori
 - `code`: 
@@ -44,4 +38,3 @@ tugas-akhir, contoh: bagustris/tugas-akhir
   - permasalahan
   - temuan
   - dll (*like research diary atau journal*)
-- README.md: berisi panduan untuk mereplikasi TA, kontak, promosi, dll.
