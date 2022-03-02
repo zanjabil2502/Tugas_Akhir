@@ -1,0 +1,30 @@
+Data Sebelum Segmentasi
+------------------------
+
+#TRAIN
+ - Positive: 71
+ - Negative: 215
+
+#DEVEL
+ - Positive: 48
+ - Negative: 183
+
+#TEST
+ - Positive: 39
+ - Negative: 169
+
+
+Data Sesudah Segmentasi
+------------------------
+
+#TRAIN
+ - Positive: 318
+ - Negative: 1077
+
+#DEVEL
+ - Positive: 1047
+ - Negative: 794
+
+#TEST
+ - Positive: 177
+ - Negative: 741
