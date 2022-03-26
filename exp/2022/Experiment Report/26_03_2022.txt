@@ -1,0 +1,15 @@
+23.40 26/03/2022
+=======================================
+- Membuat program untuk pembuatan CSV dari hasil segmentasi
+- Memodifikasi program Training.ipynb agar dapat membaca dan memodifikasi file JSON
+- Melakukan training untuk hasil segmentasi metode RMS threshold dengan data training dan devel adalah positif Coswara, positif Coughvid, dan Compare.
+
+Hasil
+=======================================
+- Beberapa CSV dari segmentasi 2 metode
+- Program notebook untuk segmentasi sekaligus pembacaan csv
+- Program training sekaligus modifikasi json
+
+Kendala
+=======================================
+- untuk training hasil segmentasi metode Hysterisis comparator masih terdapat error, dugaan diakibatkan terdapat durasi hasil segmentasi yang terlalu pendek.

@@ -1,0 +1,24 @@
+23.30 25/03/2022
+===========================
+Melakukan Segmentasi Hasil Batuk yang telah difiltering dengan noise reduction dan memiliki nilai probabilitas batuk diatas 80%.
+
+Segmentasi dilakukan dengan dua cara, yaitu dengan Hysteresis comparator dan RMS threshold.
+
+Kemudian dilakukan classification dengan penambahan padding sesuai maksimal durasi dari hasil masing masing metode
+------------------------------------------------------
+# Alur Noise Reduction
+wav_normalized -> noise reduction -> cough detection -> probabilitas >80%
+
+Audio sebelum noise reduction : 13.486 audio
+Audio hasil noise reduction : 9.682 audio (menurun 28,21% sesudah noise reduction)
+------------------------------------------------------
+# Alur Segmentation
+Hasil noise reduction -> Segmentasi -> padding -> cough detection -> probabilitas >80%
+
+# Metode Hysteresis comparator
+  - hasil segmentasi : 14.364 audio (meningkat 48,35% dari hasil noise reduction)
+  - hasil classification : 8.975 audio (menurun 37,52% dari hasil segmentasi)
+
+# Metode RMS threshold
+  - hasil segmentasi : 37.497 audio (meningkat 287,28% dari hasil noise reduction)
+  - hasil classification : 15.763 audio	(menurun 57,96% dari hasil segmentasi)
