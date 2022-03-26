@@ -1,0 +1,38 @@
+00.34 27/03/2022
+=============================
+- Melakukan Training Hasil Segmentasi Metode RMS Threshold menggunakan Spira
+- Terdapat 373 data test dimana:
+   + 309 data negative
+   + 64 data positive
+
+Hasil
+====================
+- Nama Folder = exp-92
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+- Variabel yang diubah = Tidak ada
+- Hasil Test UAR =
+  + 71,35% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-93
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+- Hasil Test UAR =
+  + 69,55% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-94
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 74,80% (ket: test tanpa insert noise)
