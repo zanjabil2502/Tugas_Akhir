@@ -36,3 +36,197 @@ Hasil
   + Tanpa SpecAug
 - Hasil Test UAR =
   + 74,80% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-95
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+  + Tanpa Mixup
+- Hasil Test UAR =
+  + 67,45% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-96
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+  + Coswara Negative
+  + Coughvid Negative
+- Variabel yang diubah = Tidak Ada
+- Hasil Test UAR =
+  + 54,60% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-97
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+  + Coswara Negative
+  + Coughvid Negative
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+- Hasil Test UAR =
+  + 68,31% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-98
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+  + Coswara Negative
+  + Coughvid Negative
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 61,95% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-99
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+  + Coswara Negative
+  + Coughvid Negative
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+  + Tanpa Mixup
+- Hasil Test UAR =
+  + 61,17% (ket: test tanpa insert noise)
+
+==========================================
+16.42 27/03/2022
+==========================================
+- Melakukan Training Hasil Segmentasi Metode Hysterisis Comparator menggunakan Spira
+- Terdapat 216 data test dimana:
+   + 181 data negative
+   + 35 data positive
+
+Hasil
+===================================
+-------------------------------------------
+- Nama Folder = exp-100
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 76,82% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-101
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+  + Tanpa Mixup
+- Hasil Test UAR =
+  + 77,60% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-102
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+  + Coswara Negative
+  + Coughvid Negative
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 61,80% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-103
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+  + Coswara Negative
+  + Coughvid Negative
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+  + Tanpa Mixup
+- Hasil Test UAR =
+  + 64,98% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-104
+- Data Train =
+  + Compare
+  + Coswara Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+  + Tanpa Mixup
+- Hasil Test UAR =
+  + 66% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-105
+- Data Train =
+  + Compare
+  + Coswara Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 77,93% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-106
+- Data Train =
+  + Compare
+  + Coswara Positive
+- Variabel yang diubah =
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 75,81% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-107
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 77,42% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-108
+- Data Train =
+  + Compare
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 75,35% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-109
+- Data Train =
+  + Compare
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa SpecAug
+  + Tanpa Noise Augment
+- Hasil Test UAR =
+  + 71,57% (ket: test tanpa insert noise)
+  + 74,34% (ket: test insert noise)
+-------------------------------------------
+- Nama Folder = exp-110
+- Data Train =
+  + Compare
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa SpecAug
+  + Tanpa Noise Augment
+  + Tanpa Mixup
+- Hasil Test UAR =
+  + 63,97% (ket: test tanpa insert noise)
