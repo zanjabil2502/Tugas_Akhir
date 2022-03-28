@@ -98,7 +98,82 @@ Hasil
   + Tanpa Mixup
 - Hasil Test UAR =
   + 61,17% (ket: test tanpa insert noise)
-
+-------------------------------------------
+- Nama Folder = exp-111
+- Data Train =
+  + Compare
+  + Coswara Positive
+- Variabel yang diubah = Tidak Ada
+- Hasil Test UAR =
+  + 72,29% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-112
+- Data Train =
+  + Compare
+  + Coswara Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+- Hasil Test UAR =
+  + 69,41% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-113
+- Data Train =
+  + Compare
+  + Coswara Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 71,46% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-114
+- Data Train =
+  + Compare
+  + Coswara Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+  + Tanpa Mixup
+- Hasil Test UAR =
+  + 67,71% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-115
+- Data Train =
+  + Compare
+  + Coughvid Positive
+- Variabel yang diubah = Tidak Ada
+- Hasil Test UAR =
+  + 69,90% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-116
+- Data Train =
+  + Compare
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+- Hasil Test UAR =
+  + 72,29% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-117
+- Data Train =
+  + Compare
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 67,82% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-118
+- Data Train =
+  + Compare
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+  + Tanpa Mixup
+- Hasil Test UAR =
+  + 63,38% (ket: test tanpa insert noise)
 ==========================================
 16.42 27/03/2022
 ==========================================

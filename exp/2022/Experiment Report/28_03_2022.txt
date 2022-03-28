@@ -1,0 +1,4 @@
+01.21 28/03/2022
+===========================
+- Melakukan Audio Loadness Normalisasi pada data hasil segmentation dari 2 metode.
+- Mencoba YAMNET classification from Tensorflow.
