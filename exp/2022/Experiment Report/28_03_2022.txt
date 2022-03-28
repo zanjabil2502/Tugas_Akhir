@@ -2,3 +2,156 @@
 ===========================
 - Melakukan Audio Loadness Normalisasi pada data hasil segmentation dari 2 metode.
 - Mencoba YAMNET classification from Tensorflow.
+
+Hasil Normalize Hysterisis Comparator
+=====================================
+-------------------------------------------
+- Nama Folder = exp-119
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 80,51% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-120
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 76,59% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-121
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+  + Tanpa Mixup
+- Hasil Test UAR =
+  + 78,85% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-122
+- Data Train =
+  + Compare
+  + Coswara Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 69,73% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-123
+- Data Train =
+  + Compare
+  + Coswara Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+  + Tanpa Mixup
+- Hasil Test UAR =
+  + 58,81% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-124
+- Data Train =
+  + Compare
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 74,29% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-125
+- Data Train =
+  + Compare
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+  + Tanpa Mixup
+- Hasil Test UAR =
+  + 62,69% (ket: test tanpa insert noise)
+-------------------------------------------
+
+Hasil Normalize RMS Threshold
+=====================================
+-------------------------------------------
+- Nama Folder = exp-126
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 69,20% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-127
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+- Variabel yang diubah = Tidak ada
+- Hasil Test UAR =
+  + 67,58% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-128
+- Data Train =
+  + Compare
+  + Coswara Positive
+- Variabel yang diubah = Tidak ada
+- Hasil Test UAR =
+  + 72,89% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-129
+- Data Train =
+  + Compare
+  + Coswara Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 70,40% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-130
+- Data Train =
+  + Compare
+  + Coswara Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+  + Tanpa Mixup
+- Hasil Test UAR =
+  + 66,71% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-131
+- Data Train =
+  + Compare
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 71,19% (ket: test tanpa insert noise)
+-------------------------------------------
+- Nama Folder = exp-132
+- Data Train =
+  + Compare
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+  + Tanpa Mixup
+- Hasil Test UAR =
+  + 64,91% (ket: test tanpa insert noise)
+-------------------------------------------
