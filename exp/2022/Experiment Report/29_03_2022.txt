@@ -1,0 +1,112 @@
+00.15 29/03/2022
+============================
+- Melakukan Experiment dengan mengganti pre-trained model
+
+Hasil
+================
+- Nama Folder = exp-133
+- Model = Panns
+- Model Pre-Trained = ResNet38_mAP=0.434.pth
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 80,19% (ket: test tanpa insert noise)
+------------------------------------------------------
+- Nama Folder = exp-134
+- Model = Panns
+- Model Pre-Trained = MobileNetV1_mAP=0.389.pth
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 75,99% (ket: test tanpa insert noise)
+------------------------------------------------------
+- Nama Folder = exp-135
+- Model = Panns
+- Model Pre-Trained = ResNet54_mAP=0.429.pth
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 80,23% (ket: test tanpa insert noise)
+------------------------------------------------------
+- Nama Folder = exp-136
+- Model = Panns
+- Model Pre-Trained = ResNet22_mAP=0.430.pth
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 77,93% (ket: test tanpa insert noise)
+------------------------------------------------------
+- Nama Folder = exp-137
+- Model = Panns Resnet
+- Model Pre-Trained = ResNet38_mAP=0.434.pth
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 75,26% (ket: test tanpa insert noise)
+------------------------------------------------------
+- Nama Folder = exp-138
+- Model = Panns Resnet
+- Model Pre-Trained = Cnn14_16k_mAP=0.438.pth
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 80,46% (ket: test tanpa insert noise)
+------------------------------------------------------
+- Nama Folder = exp-139
+- Model = Panns Resnet
+- Model Pre-Trained = ResNet54_mAP=0.429.pth
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 76,13% (ket: test tanpa insert noise)
+------------------------------------------------------
+03.47 29/03/2022
+====================================================
+- Percobaan hasil segmentasi di padding menjadi 10 detik
+- Nama Folder = exp-140
+- Model = Panns
+- Model Pre-Trained = Cnn14_16k_mAP=0.438.pth
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 73,82% (ket: test tanpa insert noise)
