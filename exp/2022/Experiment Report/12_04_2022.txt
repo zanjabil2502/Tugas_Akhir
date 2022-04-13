@@ -1,0 +1,24 @@
+21.31 12/04/2022
+=====================
+
+Percobaan Threshold Cough Detection
+
+Hasil
+===================
+Threshold = 60%
+UAR = 64,69%
+Data test = 119 suara (96 negative & 23 Positive)
+
+Threshold = 70%
+UAR = 70,14%
+Data test = 99 suara (78 negative & 21 Positive)
+
+Threshold = 80%
+UAR = 87,72%
+Data test = 81 suara (68 negative & 13 Positive)
+
+Threshold = 90%
+UAR = 85,11%
+Data test = 51 suara (40 negative & 11 Positive)
+
+

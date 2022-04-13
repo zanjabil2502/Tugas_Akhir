@@ -1,0 +1,139 @@
+14.33 31/03/2022
+============================
+- Eksperiment tuning batch size
+
+Hasil
+=====================
+- Nama Folder = exp-184
+- Model = Panns
+- Model Pre-Trained = Cnn14_16k_mAP=0.438.pth
+- Batch Size = 10
+- Nilai Mixup = 0.8
+- Learning Rate = 0.001
+- Weight Decay = 0.0001
+- Optimizer = Adamw
+- Hop_length = 320
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 74,56% (ket: test tanpa insert noise)
+---------------------------------------------------------
+- Nama Folder = exp-185
+- Model = Panns
+- Model Pre-Trained = Cnn14_16k_mAP=0.438.pth
+- Batch Size = 15
+- Nilai Mixup = 0.8
+- Learning Rate = 0.001
+- Weight Decay = 0.0001
+- Optimizer = Adamw
+- Hop_length = 320
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 77,88% (ket: test tanpa insert noise)
+---------------------------------------------------------
+- Nama Folder = exp-186
+- Model = Panns
+- Model Pre-Trained = Cnn14_16k_mAP=0.438.pth
+- Batch Size = 20
+- Nilai Mixup = 0.8
+- Learning Rate = 0.001
+- Weight Decay = 0.0001
+- Optimizer = Adamw
+- Hop_length = 320
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 79,03% (ket: test tanpa insert noise)
+---------------------------------------------------------
+- Nama Folder = exp-187
+- Model = Panns
+- Model Pre-Trained = Cnn14_16k_mAP=0.438.pth
+- Batch Size = 19
+- Nilai Mixup = 0.8
+- Learning Rate = 0.001
+- Weight Decay = 0.0001
+- Optimizer = Adamw
+- Hop_length = 320
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 75,35% (ket: test tanpa insert noise)
+---------------------------------------------------------
+- Nama Folder = exp-188
+- Model = Panns
+- Model Pre-Trained = Cnn14_16k_mAP=0.438.pth
+- Batch Size = 18
+- Nilai Mixup = 0.8
+- Learning Rate = 0.001
+- Weight Decay = 0.0001
+- Optimizer = Adamw
+- Hop_length = 320
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 75,67% (ket: test tanpa insert noise)
+---------------------------------------------------------
+- Nama Folder = exp-189
+- Model = Panns
+- Model Pre-Trained = Cnn14_16k_mAP=0.438.pth
+- Batch Size = 17
+- Nilai Mixup = 0.8
+- Learning Rate = 0.001
+- Weight Decay = 0.0001
+- Optimizer = Adamw
+- Hop_length = 320
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 80,46% (ket: test tanpa insert noise)
+---------------------------------------------------------
+- Nama Folder = exp-190
+- Model = Panns
+- Model Pre-Trained = Cnn14_16k_mAP=0.438.pth
+- Batch Size = 16
+- Nilai Mixup = 0.8
+- Learning Rate = 0.001
+- Weight Decay = 0.0001
+- Optimizer = Adamw
+- Hop_length = 320
+- Data Train =
+  + Compare
+  + Coswara Positive
+  + Coughvid Positive
+- Variabel yang diubah =
+  + Tanpa Noise Augment
+  + Tanpa SpecAug
+- Hasil Test UAR =
+  + 82,21% (ket: test tanpa insert noise)
+---------------------------------------------------------

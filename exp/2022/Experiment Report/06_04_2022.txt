@@ -1,0 +1,264 @@
+12.53 06/04/2022
+==================
+- dataset:
+  + Coswara
+  + Coughvid Version 1.0 (Feb 3, 2021)
+
+=======================
+Normalized_data:
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- UAR : 71,49%
+
+Normalized_data:
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+  + Coswara Negative
+- UAR : 66,27%
+
+Normalized_data:
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coughvid Negative
+  + Coswara Positive
+  + Coswara Negative
+- UAR : 57,10%
+
+=========================
+
+Devel Separation:
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 5%
+- UAR : 70,21%
+
+Devel Separation:
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 10%
+- UAR : 70,51%
+
+Devel Separation:
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 15%
+- UAR : 65,18%
+
+Devel Separation:
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- UAR : 70,31%
+
+Devel Separation:
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 25%
+- UAR : 65,18%
+
+Devel Separation:
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 30%
+- UAR : 67,85%
+
+================================
+Cough-Detection
+================================
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 10%
+- UAR : 87,89%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- UAR : 84,05%
+
+===============================
+Cough Filter
+=========================
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 10%
+- UAR : 69,66%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- UAR : 71,82%
+
+=========================
+Variasi Augmentasi
+=========================
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- UAR : 70,80%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- UAR : 74,65%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Tanpa Mixup
+- UAR : 73,28%
+
+---------------------
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 10%
+- Tanpa Noise Augment
+- UAR : 72,61%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 10%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- UAR : 70,69%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Tanpa Mixup
+- UAR : 71,81%
+
+======================
+Segmentation - Hysterisis Comparator
+======================
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 10%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- UAR : 73,15%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- UAR : 76,24%
+
+======================
+Segmentation - RMS Threshold
+======================
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 10%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- UAR : 74,12%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- UAR : 73,58%
+
+======================
+Wav Normalized - Hysterisis Comparator
+======================
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 10%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- UAR : 75,98%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- UAR : 78,17%
+
+======================
+Wav Normalized - RMS Threshold
+======================
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 10%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- UAR : 70,42%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- UAR : 77,95%

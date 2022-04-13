@@ -1,0 +1,640 @@
+21.15 03/04/2022
+=======================
+- Update dataset:
+  + Coswara committed on 26 Feb 2022
+  + Coughvid Version 2.0 (Feb 3, 2021)
+
+=======================
+Normalized_data:
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- UAR : 68,34%
+
+Normalized_data:
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+  + Coswara Negative
+- UAR : 67,55%
+
+Normalized_data:
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coughvid Negative
+  + Coswara Positive
+  + Coswara Negative
+- UAR : 59,17%
+
+=========================
+
+Devel Separation:
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 5%
+- UAR : 70,21%
+
+Devel Separation:
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 10%
+- UAR : 72,28%
+
+Devel Separation:
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 15%
+- UAR : 65,18%
+
+Devel Separation:
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- UAR : 69,72%
+
+Devel Separation:
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 25%
+- UAR : 65,18%
+
+Devel Separation:
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 30%
+- UAR : 67,85%
+
+================================
+Cough-Detection
+================================
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 10%
+- UAR : 87,89%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- UAR : 84,05%
+
+===============================
+Cough Filter
+=========================
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 10%
+- UAR : 69,66%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- UAR : 71,82%
+
+=========================
+Variasi Augmentasi
+=========================
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- UAR : 70,80%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- UAR : 74,65%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Tanpa Mixup
+- UAR : 73,28%
+
+---------------------
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 10%
+- Tanpa Noise Augment
+- UAR : 72,61%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 10%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- UAR : 70,69%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Tanpa Mixup
+- UAR : 71,81%
+
+======================
+Segmentation - Hysterisis Comparator
+======================
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 10%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- UAR : 73,15%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- UAR : 76,24%
+
+======================
+Segmentation - RMS Threshold
+======================
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 10%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- UAR : 74,12%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- UAR : 73,58%
+
+======================
+Wav Normalized - Hysterisis Comparator
+======================
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 10%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- UAR : 75,98%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- UAR : 78,17%
+
+======================
+Wav Normalized - RMS Threshold
+======================
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 10%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- UAR : 70,42%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- UAR : 77,95%
+
+==========================
+Variasi Mixup Alpha
+==========================
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 0.1
+- UAR : 74,82%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 0.2
+- UAR : 78,17%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 0.3
+- UAR : 73,53%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 0.4
+- UAR : 75,02%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 0.5
+- UAR : 77,40%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 0.6
+- UAR : 75,20%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 0.7
+- UAR : 80,17%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 0.8
+- UAR : 79,72%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 0.9
+- UAR : 78,17%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 1
+- UAR : 78,17%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 1.1
+- UAR : 76,11%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 1.2
+- UAR : 77,52%
+
+===============================
+Variasi Weight Decay
+================================
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 0.7
+- Weight Decay = 0.1
+- UAR : 78,17%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 0.7
+- Weight Decay = 0.01
+- UAR : 80,17%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 0.7
+- Weight Decay = 0.001
+- UAR : 80,75%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 0.7
+- Weight Decay = 0.0001
+- UAR : 77,02%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 0.7
+- Weight Decay = 0.00001
+- UAR : 68,83%
+
+=======================
+Variasi Learning Rate
+=======================
+
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 0.7
+- Learning Rate = 0.1
+- Weight Decay = 0.001
+- UAR : 50,23%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 0.7
+- Learning Rate = 0.01
+- Weight Decay = 0.001
+- UAR : 61,54%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 0.7
+- Learning Rate = 0.001
+- Weight Decay = 0.001
+- UAR : 80,75%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 0.7
+- Learning Rate = 0.0001
+- Weight Decay = 0.001
+- UAR : 78,37%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 0.7
+- Learning Rate = 0.00001
+- Weight Decay = 0.001
+- UAR : 65,67%
+
+===========================
+Variasi Batch Size
+==========================
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 0.7
+- Learning Rate = 0.001
+- Weight Decay = 0.001
+- Batch Size = 8
+- UAR : 77,14%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 0.7
+- Learning Rate = 0.001
+- Weight Decay = 0.001
+- Batch Size = 16
+- UAR : 80,75%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 0.7
+- Learning Rate = 0.001
+- Weight Decay = 0.001
+- Batch Size = 32
+- UAR : 76,24%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 0.7
+- Learning Rate = 0.001
+- Weight Decay = 0.001
+- Batch Size = 64
+- UAR : 74,76%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 0.7
+- Learning Rate = 0.001
+- Weight Decay = 0.001
+- Batch Size = 20
+- UAR : 79,40%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 0.7
+- Learning Rate = 0.001
+- Weight Decay = 0.001
+- Batch Size = 17
+- UAR : 79,46%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 0.7
+- Learning Rate = 0.001
+- Weight Decay = 0.001
+- Batch Size = 128
+- UAR : 79,72%
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 0.7
+- Learning Rate = 0.001
+- Weight Decay = 0.001
+- Batch Size = 128
+- UAR : 78,81%
+
+===========================
+Dataset
+===========================
+
+
+- Dataset :
+  + Compare
+  + Coughvid Positive
+  + Coswara Positive
+  + Coughvid Negative
+  + Coswara Negative
+- Separation = 20%
+- Tanpa Noise Augment
+- Tanpa Spec-Aug
+- Alpha = 0.7
+- Learning Rate = 0.001
+- Weight Decay = 0.001
+- Batch Size = 16
+- UAR : 69,54%
