@@ -1,0 +1,56 @@
+14.29 20/04/2022
+======================
+Eksperiment Loudness Normalize
+
+Hasil
+=================
+Alpha = 1
+UAR = 87,14%
+
+Alpha = 0.9
+UAR = 86,08%
+
+Alpha = 0.8
+UAR = 84,60%
+
+Alpha = 0.7
+UAR = 87,66%
+
+Alpha = 0.6
+UAR = 86,70%
+
+Alpha = 0.5
+UAR = 85,13%
+
+Alpha = 0.4
+UAR = 84,60%
+
+Alpha = 0.3
+UAR = 83,73%
+
+Alpha = 0.2
+UAR = 86,88%
+
+Alpha = 0.1
+UAR = 84,08%
+=======================
+
+Alpha = 0.7
+Weight Decay = 0.1
+UAR = 84,25%
+
+Alpha = 0.7
+Weight Decay = 0.01
+UAR = 87,66%
+
+Alpha = 0.7
+Weight Decay = 0.001
+UAR = 87,66%
+
+Alpha = 0.7
+Weight Decay = 0.0001
+UAR = 83,47%
+
+Alpha = 0.7
+Weight Decay = 0.00001
+UAR = 87,04%

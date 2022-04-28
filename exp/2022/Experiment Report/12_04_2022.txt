@@ -6,19 +6,135 @@ Percobaan Threshold Cough Detection
 Hasil
 ===================
 Threshold = 60%
+Banyak Data = 12.094
 UAR = 64,69%
 Data test = 119 suara (96 negative & 23 Positive)
 
 Threshold = 70%
+Banyak Data = 10.915
 UAR = 70,14%
 Data test = 99 suara (78 negative & 21 Positive)
 
 Threshold = 80%
+Banyak Data = 9.263
 UAR = 87,72%
 Data test = 81 suara (68 negative & 13 Positive)
 
 Threshold = 90%
+Banyak Data = 6.429
 UAR = 85,11%
 Data test = 51 suara (40 negative & 11 Positive)
 
+==========================================
 
+Percobaan Segmentasi tanpa cough detection
+
+Hasil
+===================
+Hysterisis Comparator
+Banyak Data = 22.484 suara
+UAR = 85,47%
+Data test = 254 suara (214 Negative & 40 Positive)
+
+RMS Comparator
+Banyak Data = 36.158 suara
+UAR = 88,45%
+Data test = 329 suara (285 Negative & 44 Positive)
+Pakai Tuning HyperParameter Terbaik
+
+===============================
+
+RMS Comparator
+Banyak Data = 36.158 suara
+UAR = 88,72%
+Data test = 329 suara (285 Negative & 44 Positive)
+Alpha Mixup = 1
+
+RMS Comparator
+Banyak Data = 36.158 suara
+UAR = 87,04%
+Data test = 329 suara (285 Negative & 44 Positive)
+Alpha Mixup = 0.9
+
+RMS Comparator
+Banyak Data = 36.158 suara
+UAR = 82,94%
+Data test = 329 suara (285 Negative & 44 Positive)
+Alpha Mixup = 0.8
+
+
+RMS Comparator
+Banyak Data = 36.158 suara
+UAR = 83,99%
+Data test = 329 suara (285 Negative & 44 Positive)
+Alpha Mixup = 0.7
+
+RMS Comparator
+Banyak Data = 36.158 suara
+UAR = 86,00%
+Data test = 329 suara (285 Negative & 44 Positive)
+Alpha Mixup = 0.6
+
+RMS Comparator
+Banyak Data = 36.158 suara
+UAR = 83,99%
+Data test = 329 suara (285 Negative & 44 Positive)
+Alpha Mixup = 0.5
+
+
+RMS Comparator
+Banyak Data = 36.158 suara
+UAR = 89,85%
+Data test = 329 suara (285 Negative & 44 Positive)
+Alpha Mixup = 0.4
+
+RMS Comparator
+Banyak Data = 36.158 suara
+UAR = 81,90%
+Data test = 329 suara (285 Negative & 44 Positive)
+Alpha Mixup = 0.3
+
+RMS Comparator
+Banyak Data = 36.158 suara
+UAR = 86,88%
+Data test = 329 suara (285 Negative & 44 Positive)
+Alpha Mixup = 0.2
+
+
+RMS Comparator
+Banyak Data = 36.158 suara
+UAR = 86,17%
+Data test = 329 suara (285 Negative & 44 Positive)
+Alpha Mixup = 0.1
+
+==============================
+
+RMS Comparator
+Banyak Data = 36.158 suara
+UAR = 87,22%
+Data test = 329 suara (285 Negative & 44 Positive)
+Alpha Mixup = 0.4
+weight decay = 0.001
+
+
+RMS Comparator
+Banyak Data = 36.158 suara
+UAR = 86,27%
+Data test = 329 suara (285 Negative & 44 Positive)
+Alpha Mixup = 0.4
+weight decay = 0.0001
+
+
+RMS Comparator
+Banyak Data = 36.158 suara
+UAR = 86,35%
+Data test = 329 suara (285 Negative & 44 Positive)
+Alpha Mixup = 0.4
+weight decay = 0.00001
+
+RMS Comparator
+Banyak Data = 36.158 suara
+UAR = 87,92%
+Data test = 329 suara (285 Negative & 44 Positive)
+Alpha Mixup = 0.4
+weight decay = 0.1

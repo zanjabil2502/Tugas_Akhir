@@ -1,0 +1,83 @@
+20.50 27/04/2022
+=================
+Pengujian Inference Program
+
+Hasil
+==============
+
+Untuk Penggunaan Modus:
+#Data Compare
+ - Label Negative:
+   + Prediksi Positive : 63
+   + Prediksi Negative : 5
+   + Tidak dapat diprediksi : 101
+ - Label Positive:
+   + Prediksi Positive : 13
+   + Prediksi Negative : 0
+   + Tidak dapat diprediksi : 26
+#Data Virufy:
+ - Label Negative:
+   + Prediksi Positive : 5
+   + Prediksi Negative : 0
+   + Tidak dapat diprediksi : 4
+ - Label Positive:
+   + Prediksi Positive : 5
+   + Prediksi Negative : 1
+   + Tidak dapat diprediksi : 1
+--------------------------------------
+Untuk Penggunaan If:
+#Data Compare
+ - Label Negative:
+   + Prediksi Positive : 67
+   + Prediksi Negative : 1
+   + Tidak dapat diprediksi : 101
+ - Label Positive:
+   + Prediksi Positive : 13
+   + Prediksi Negative : 0
+   + Tidak dapat diprediksi : 26
+#Data Virufy:
+ - Label Negative:
+   + Prediksi Positive : 5
+   + Prediksi Negative : 0
+   + Tidak dapat diprediksi : 4
+ - Label Positive:
+   + Prediksi Positive : 6
+   + Prediksi Negative : 0
+   + Tidak dapat diprediksi : 1
+
+---------------------------------------
+#Pengujian pada PC 3:
+Spec :
+- Intel(R) Core(TM) i5-2400 CPU @ 3.10GHz
+- RAM 16 GB
+- VGA AMD Radeon HD 6570
+
+Kondisi:
+- Lokasi Running = CPU
+
+Result:
+- Lama Inference Program = 5 hingga 8 detik
+-------------------------------------------
+#Pengujian pada PC Speech:
+Spec :
+- AMD Ryzen 7 1800X Eight-Core Processor
+- RAM 128 GB
+- NVIDIA GeForce GTX 1080 
+
+Kondisi:
+- Lokasi Running = CPU
+
+Result:
+- Lama Inference Program = 2 hingga 4 detik
+------------------------------------------
+#Pengujian pada Laptop HP:
+Spec :
+- AMD E7-7110 APU
+- RAM 8 GB
+- AMD Radeon R2 Graphics
+
+Kondisi:
+- Lokasi Running = CPU
+
+Result:
+- Lama Inference Program = 18 hingga 50 detik
