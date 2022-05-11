@@ -1,0 +1,88 @@
+{
+    "model_name":"panns", 
+    "dataset":{
+        "class_balancer_batch": true,  // if true use WeightedRandomSampler for get a balanced batch
+        // use the overlapping technique, in which the window was shifted "step" second each time and an instance was extracted during the total audio duration
+        // "split_wav_using_overlapping": false, // if true use the overlapping technique, in which the window was shifted "step" second each time and an instance was extracted during the total audio duration
+        "window_len": 3, // windows len in seconds for overlapping technique
+        "step": 1, // step len in seconds for overlapping technique
+        "padding_with_max_lenght": true,// if true, the timestep axis will be padded with the longest sequence, else, the timestep will be dynamic and the network will predict a vector of the size of the timestep on the output (if you use convulsions it can decrease)
+        "temporal_control": "padding", // overlapping, padding, avgpool
+        "max_seq_len": null, // the data loader set automatically this value and save in train_config['logs_path']/config.json. its is max time dimension value in your train dataset. For convert this value to seconds use: value*hop_length/sample_rate
+
+        // train dataset
+        "train_csv":"csv_files/experiment_data/train.csv", // format path_wav, class
+        "train_data_root_path": "dataset/Merge-Data/", // complementary path for csv
+
+        // evaluation dataset
+        "eval_csv":"csv_files/experiment_data/devel.csv", // format path_wav, class
+        "eval_data_root_path": "dataset/Merge-Data/", // complementary path for csv
+        
+       // test dataset
+        "test_csv":"csv_files/experiment_data/test.csv", // format path_wav, class
+        "test_data_root_path": "dataset/Merge-Data/", // complementary path for csv
+          
+        // classes definition
+        "control_class": 0, // negative
+        "patient_class": 1 // positive
+    },
+    "model":{
+        "pretreined_checkpoint": "Cnn14_16k_mAP=0.438.pth", 
+        "freeze_base": false,
+        "mixup": true,
+        "mixup_alpha": 0.9,
+        "spec_aug": true,
+        "num_class":1
+    },
+    "train_config": {
+        "early_stop_epochs": 0, // if 0 disable else if the model does not improve after "early_stop_epochs" epochs, training is stopped
+        "lr_decay": true, // activate/desactivate Noam Learning Rate Decay Scheme    
+        "warmup_steps": 500, //default 4000, Noam decay steps to increase the learning rate from 0 to "lr"
+        "epochs": 100,
+        "learning_rate": 0.001, // Initial learning rate. If Noam decay is active, maximum learning rate.
+        "weight_decay": 0.01,  // Weight decay rate for optimizer 
+        "optimizer":"adamw",
+        "loss1_weight": 3.0, // 3.37 
+        "batch_size": 16,
+        "seed": 42,
+        "num_workers": 14,
+        "logs_path": "result/",
+        "reinit_layers": null,
+        "summary_interval": 10,
+        "checkpoint_interval": 500
+    },
+    "data_aumentation":{
+        "noisetypes":["noise"],
+        "musan_path": "dataset/Musan-Data/", 
+        "insert_noise": true, // disable/enable noise insertion
+        "num_noise_control": 4, // number of diferents noise samples applied in control files 
+        "num_noise_patient": 3, // number of diferents noise samples applied in control files ! we recomend num_noise_control - 1
+        "noise_max_amp": 0.19233719,
+        "noise_min_amp": 0.033474047
+    },
+    "test_config": {
+        "batch_size": 10, // used on evaluation and test
+        "num_workers": 10 // used on evaluation and test
+    },
+    "audio": {
+        "feature": "melspectrogram", // spectrogram or melspectrogram or mfcc
+        // wave load paramers
+        "sample_rate": 16000,
+        "normalize": true, // if true, then output is divided by 1 << 31 (assumes signed 32-bit audio), and normalizes to [-1, 1]. If number, then output is divided by that number If callable, then the output is passed as a parameter to the given function, then the output is divided by the result. 
+
+        // mel spectorgram paramers
+        "num_mels": 64, // number of mels coefficients
+        "mel_fmin": 0.0, // minimum freq level for mel-spec. ~50 for male and ~95 for female voices. Tune for dataset!!
+        "mel_fmax": null, // maximum freq level for mel-spec. Tune for dataset!!  good value 8000.0
+
+        // mfcc paramers
+        "num_mfcc": 40, // Number of mfc coefficients to retain 
+        "log_mels": false, //  whether to use log-mel spectrograms instead of db-scaled.
+
+        // general config
+        "n_fft": 1024,
+        "num_freq": 513,// n_fft//2 + 1
+        "hop_length": 320,
+        "win_length": 1024
+    }
+}
