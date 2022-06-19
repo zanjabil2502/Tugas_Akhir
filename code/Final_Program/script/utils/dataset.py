@@ -219,7 +219,7 @@ class Dataset(Dataset):
             if self.c.dataset['temporal_control'] == 'padding':
                 # padding for max sequence
                 #print(self.max_seq_len - feature.size(0),feature.size(1))
-                zeros = torch.zeros(self.max_seq_len + 10 - feature.size(0),feature.size(1))
+                zeros = torch.zeros(self.max_seq_len + 100 - feature.size(0),feature.size(1))
                 # append zeros before features
                 feature = torch.cat([feature, zeros], 0)
                 target = torch.FloatTensor([class_name])
@@ -241,7 +241,7 @@ class Dataset(Dataset):
                 feature = feature.transpose(1, 2)
                 if self.c.dataset['temporal_control'] == 'padding':
                     # padding for max sequence
-                    zeros = torch.zeros(feature.size(0), self.max_seq_len+10 - feature.size(1), feature.size(2))
+                    zeros = torch.zeros(feature.size(0), self.max_seq_len+100 - feature.size(1), feature.size(2))
                     # append zeros before features
                     feature = torch.cat([feature, zeros], 1)
                 # print(feature.shape)
@@ -264,7 +264,7 @@ class Dataset(Dataset):
                 features_aug = self.spec_augmenter(features_aug.unsqueeze(1), test=True).squeeze(1)
                 if self.c.dataset['temporal_control'] == 'padding':
                     # padding for max sequence
-                    zeros = torch.zeros(features_aug.size(0), self.max_seq_len +10 - features_aug.size(1),features_aug.size(2))
+                    zeros = torch.zeros(features_aug.size(0), self.max_seq_len +100 - features_aug.size(1),features_aug.size(2))
                     # append zeros before features
                     features_aug = torch.cat([features_aug, zeros], 1)
                 # print("end..:", features_aug.shape, targets_aug.shape)

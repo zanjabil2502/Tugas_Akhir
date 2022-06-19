@@ -70,6 +70,7 @@ def test(ap, model, c, testloader,  cuda, confusion_matrix=False, debug=False, s
                 feature = feature.cuda()
                 if debug:
                     target = target.cuda()
+            #print(feature.shape)
             output = model(feature).float()
 
             # output = torch.round(output * 10**4) / (10**4)
@@ -236,6 +237,7 @@ def run_test_all_seeds(experiment_dir, test_csv, test_root_dir, batch_size, num_
     # define loss function
     for run in runs_list:
         blockPrint()
+        run = '42'
         run_dir = os.path.join(experiment_dir, run)
         if os.path.isfile(run_dir):
             continue

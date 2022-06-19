@@ -46,6 +46,7 @@ def validation(criterion, ap, model, c, testloader, tensorboard, step,  cuda, lo
                 feature = feature.cuda()
                 target = target.cuda()
             output = model(feature).float()
+            print('feature shape input: ',feature.shape)
 
             if c.dataset['temporal_control'] == 'overlapping':
                 # unpack overlapping for calculation loss and accuracy 
