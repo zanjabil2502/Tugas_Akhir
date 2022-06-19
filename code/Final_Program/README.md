@@ -180,7 +180,7 @@ Without both Augmentation
 - config path : json/learning-rate/exp-5.json
 - result : 49.41%
 
-###Tuning Weight Decay
+### Tuning Weight Decay
 ------------------------------------------------
 
 0.1
