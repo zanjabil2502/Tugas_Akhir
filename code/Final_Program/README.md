@@ -1,6 +1,7 @@
 # COVID-19 COUGH SOUND CLASSIFICATION BASED ON DEEP LEARNING
 ===========================================================
-This program is part of the final project of Zanjabila from Engineering Physics, Sepuluh Nopember Institute of Technology. The program here is a development of Edresson Casanova's program with a github link, namely github.com/Edresson/SPIRA-ComParE2021
+
+This program is part of the final project of Zanjabila from Engineering Physics, Sepuluh Nopember Institute of Technology. The program here is a development of Edresson Casanova's program with a github link, [this is Github link](github.com/Edresson/SPIRA-ComParE2021)
 
 This program uses 3 datasets, namely Coswara, Coughvid, ComParE CCS 2021. The whole program is made in python and runs on a jupyter notebook. Where there are several steps in running this overall program:
 1. Run the 1_Download_Dataset.ipynb program to download the dataset you want to use.
@@ -21,15 +22,15 @@ ComParE + Coughvid + Coswara
 
 ComParE + Coughvid (positive) + Coswara
 - config path : json/variety-dataset/exp-2.json
-- result : 52.07%
+- result : 44.67%
 
 ComParE + Coughvid + Coswara (positive)
 - config path : json/variety-dataset/exp-3.json
-- result : 63.21%
+- result : 63.91%
 
 ComParE + Coughvid (positive) + Coswara (positive)
 - config path : json/variety-dataset/exp-4.json
-- results : 68.54%
+- results : 71.30%
 
 ## Experiments on Variations in Dataset Distribution (Train-Devel)
 =====================================
