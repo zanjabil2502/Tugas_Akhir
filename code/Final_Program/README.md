@@ -110,7 +110,7 @@ No Spec Augmentation
 
 Without both Augmentation
 - config path : json/augmentation/exp-3.json
-- result : 861.68%
+- result : 81.68%
 
 ## Experiment With Hyper-Parameter Tuning
 =====================================
