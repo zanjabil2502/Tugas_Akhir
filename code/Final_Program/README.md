@@ -87,15 +87,15 @@ Hysteresis Comparator
 
 Hysteresis Comparator Normalization
 - config path : json/segmentation/exp-2.json
-- result : 83.19%
+- result : 51.51%
 
 RMS Threshold
 - config path : json/segmentation/exp-3.json
-- result : 83.19%
+- result : 79.06%
 
 RMS Threshold Normalization
 - config path : json/segmentation/exp-4.json
-- result : 83.19%
+- result : 77.67%
 
 ## Experimenting the Augmentation Method
 =====================================
